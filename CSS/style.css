@@ -1,0 +1,91 @@
+.bg-customPrimary {
+  background-color: #417fef;
+}
+
+.bg-customSecondary {
+  background-color: #ffffff;
+}
+
+.bg-customSuccess {
+  background-color: #00b973;
+}
+
+.bg-customInfo {
+  background-color: #56c0e0;
+}
+
+.bg-customWarning {
+  background-color: #f2ae43;
+}
+
+.bg-customDanger {
+  background-color: #d64161;
+}
+
+.text-customPrimary {
+  color: #417fef;
+}
+
+.text-customSecondary {
+  color: #ffffff;
+}
+
+.text-customSuccess {
+  color: #00b973;
+}
+
+.text-customInfo {
+  color: #56c0e0;
+}
+
+.text-customWarning {
+  color: #f2ae43;
+}
+
+.text-customDanger {
+  color: #d64161;
+}
+
+body {
+  font-family: Roboto, sans-serif, Arial;
+}
+body::before {
+  display: block;
+  content: "";
+  height: 65px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.image-carousel {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.forgotAccount {
+  color: blue;
+  font-weight: 400;
+  text-decoration: none;
+}
+.forgotAccount:hover {
+  cursor: pointer;
+}
+
+#signinInstead {
+  color: rgb(40, 40, 250);
+  font-weight: 400;
+}
+#signinInstead:hover {
+  cursor: pointer;
+}
+
+.profile-img {
+  width: auto;
+  height: 300px;
+  border-radius: 20%;
+}/*# sourceMappingURL=style.css.map */

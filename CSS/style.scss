@@ -1,0 +1,45 @@
+@import "color";
+@import "background";
+@import "textColor";
+
+body {
+  font-family: Roboto, sans-serif, Arial;
+  &::before {
+    display: block;
+    content: "";
+    height: 65px;
+  }
+}
+ul {
+  li {
+    list-style: none;
+  }
+}
+.image-carousel {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.forgotAccount {
+  color: blue;
+  font-weight: 400;
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+#signinInstead {
+  color: rgb(40, 40, 250);
+  font-weight: 400;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.profile-img {
+  width: auto;
+  height: 300px;
+  border-radius: 20%;
+}
